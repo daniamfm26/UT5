@@ -39,10 +39,10 @@ const TablaComponentesSimplesState = (props)=>{
 }
 
 export default TablaComponentesSimplesState
-Crear varios componentes de clase o simples para utilizar en la Aplicacion Princpal que permita realizar una distribucion mediante Grid :
-- Header
-- Main 
-    -3 capas que entre todas ocupen el 100% del ancho del navegador
-- Footer
-REalizar las hojas de estilo utilizando Sass
-Gestionar las versiones de Software con GIt
+// Crear varios componentes de clase o simples para utilizar en la Aplicacion Princpal que permita realizar una distribucion mediante Grid :
+// - Header
+// - Main 
+//     -3 capas que entre todas ocupen el 100% del ancho del navegador
+// - Footer
+// REalizar las hojas de estilo utilizando Sass
+// Gestionar las versiones de Software con GIt
