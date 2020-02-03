@@ -1,0 +1,45 @@
+.cabecera {
+  text-align: center;
+  background-image: url(./img/cabecera-bandera-3589696.jpg);
+}
+
+.cuerpo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.cuerpo__contenedor1 {
+  background-color: blue;
+  border: 1px solid black;
+  color: red;
+  min-height: 200px;
+  text-align: center;
+}
+.cuerpo__contenedor2 {
+  background-color: green;
+  border: 1px solid black;
+  color: blue;
+  min-height: 200px;
+  text-align: center;
+}
+.cuerpo__contenedor3 {
+  background-color: red;
+  border: 1px solid black;
+  color: green;
+  min-height: 200px;
+  text-align: center;
+}
+
+.footer__huevos {
+  font-size: 50px;
+  color: purple;
+  margin: auto;
+  margin-top: 20px;
+  width: 60%;
+  min-height: 400px;
+  background-image: url(./img/huevos.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+
+/*# sourceMappingURL=Estilo.css.map */

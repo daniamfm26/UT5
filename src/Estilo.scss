@@ -1,0 +1,44 @@
+.cabecera{
+    text-align: center;
+    background-image: url(./img/cabecera-bandera-3589696.jpg);
+    
+}
+@mixin contenedores($color,$colorf) {
+    background-color: $color;
+    border: 1px solid black;
+    color: $colorf;
+    min-height: 200px;
+    text-align: center;
+}
+.cuerpo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    &__contenedor1{
+        @include contenedores(blue,red);
+        
+    }
+    &__contenedor2{
+        @include contenedores(green,blue);
+    }
+    &__contenedor3{
+        @include contenedores(red,green);
+    }
+}
+
+.footer{
+    &__huevos{
+        font-size: 50px;
+        color:purple;
+        
+        margin: auto;
+        margin-top: 20px;
+        width: 60%;
+        min-height: 400px;
+        background-image: url(./img/huevos.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+
+    }
+}
