@@ -1,0 +1,29 @@
+/*Medida fr*/
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  margin: 20px 20px;
+  display: grid;
+  grid-template-columns: 400px repeat(12, 1fr);
+  /*La medida fr se amolda al espacio disponible*/
+  grid-column-gap: 10px;
+  background-color: rgba(255, 0, 0, 0.7);
+  height: 500px;
+}
+.grid__column {
+  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", 
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 9px;
+  background-color: rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=estilo2.css.map */

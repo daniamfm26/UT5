@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import SelectoresAtributo from './SelectoresAtributo';
 import TrabajoConFormularios from './TrabajoConFormularios';
+import Animaciones from './Animaciones';
+import Distribucion from './Distribucion';
+import Medidafr from './Medidafr'; 
 
 
 class App extends Component{
@@ -8,7 +11,10 @@ class App extends Component{
         return(
             <div>
                 {/* <SelectoresAtributo /> */}
-                <TrabajoConFormularios />
+                {/* <TrabajoConFormularios /> */}
+                <Animaciones />
+                <Distribucion />
+                <Medidafr />
             </div>
         )
     }
